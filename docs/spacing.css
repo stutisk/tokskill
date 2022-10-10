@@ -1,0 +1,59 @@
+.flex {
+  display: flex;
+}
+.flex-space-between {
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+}
+.grid-template-columns {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  
+}
+.grid-gap{
+    grid-column-gap:1px;
+}
+.grid-area1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.grid-area2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.gap {
+  gap: 3rem;
+}
+.m-l {
+  margin-left: 7rem;
+}
+.m-ra {
+  margin-right: auto;
+}
+.m-t {
+  margin-top: 20px;
+}
+.m-t60{
+    margin-top: 60px;
+}
+.m-t-button {
+  margin-top: 10px;
+}
+.padding {
+  padding: 3px 7rem;
+}
+.btn-padding {
+  padding: 13px 47px;
+}
+.padding2{
+    padding: 5px 9rem;
+}
+.cursor {
+  cursor: pointer;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}

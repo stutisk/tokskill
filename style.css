@@ -1,0 +1,51 @@
+@import "./docs/base.css";
+@import "./docs/spacing.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  border-bottom: 2px inset;
+}
+.nav-links {
+  font-size: var(--font-size1);
+  font-weight: var(--font-weight500);
+  color: var(--nav-text-color);
+}
+.btn-login {
+  background-color: var(--login-button);
+  min-width: 150px;
+  font-weight: var(--font-weight600);
+  line-height: 16px;
+  border-radius: var(--border-radius);
+  border: none;
+  color: white;
+}
+.container-Body {
+  height: 450px;
+}
+.container-Body-img {
+  border-radius: var(--border-radius500);
+}
+.grid-area-text {
+  top: 20%;
+  left: 10%;
+  font-size: 21px;
+  font-family: Arimo, sans-serif;
+}
+.grid-area-text-about{
+    font-size: 14px;
+    line-height: 2;
+    width: 80%;
+}
+.grid-area-img {
+  line-height: 600px;
+}
+.container-about {
+    height: 450px;
+    background-color: #eeeff0;
+    
+}
+.center-text{
+    text-align: center;
+}

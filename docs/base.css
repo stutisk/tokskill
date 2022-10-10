@@ -1,0 +1,10 @@
+:root{
+    --login-button:#00308f;
+    --nav-text-color:#05215b;
+    /* font-size */
+    --font-size1:0.900rem;
+    --font-weight600: 600;
+    --font-weight500: 500 ;
+    --border-radius: 8px;
+    --border-radius500:500px;
+}
