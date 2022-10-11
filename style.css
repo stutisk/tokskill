@@ -15,13 +15,13 @@ ul { padding:0 }
   color: var(--nav-text-color);
 }
 .btn-login {
-  background-color: var(--login-button);
+  background-color: var(--primary-color);
   min-width: 150px;
   font-weight: var(--font-weight600);
   line-height: 16px;
   border-radius: var(--border-radius);
   border: none;
-  color: white;
+  color: var(--white-color);
 }
 .container-Body {
     height: 450px;
@@ -33,11 +33,11 @@ ul { padding:0 }
 .grid-area-text {
   top: 20%;
   left: 10%;
-  font-size: 21px;
+  font-size: var(--font-size2);
   font-family: Arimo, sans-serif;
 }
 .grid-area-text-about {
-  font-size: 14px;
+  font-size: var(--font-size1);
   line-height: 2;
   width: 80%;
 }
@@ -46,15 +46,15 @@ ul { padding:0 }
 }
 .container-about {
   height: 450px;
-  background-color: #eeeff0;
+  background-color: var(--grey-color);
 }
 .center-text {
   text-align: center;
 }
 .container-footer {
-  background-color: #00308f;
-  color: white;
-  font-weight: 200;
+  background-color: var(--primary-color);
+  color:var(--white-color);
+  font-weight:var(--font-weight200);
  
 }
 .footer-links{
@@ -69,24 +69,26 @@ justify-content: space-around;
 .input{
     padding: 1rem;
     width: 60%;
-    border: 1px solid #e5e5e5;
-    
-  
+    border: 1px solid var(--border-color);
 }
 ::placeholder {
-    font-size: 1rem;
+    font-size: var(--font-size1);
     opacity: 1;
 
   }
  .links{
-  color: white;;
+  color: var(--white-color);
  }
+.non-underline{
+  text-decoration: none;
+  font-size: var(--font-size1);
+}
  i {
   padding: 10px;
 }
 .icon {
   position: relative;
   right: 50px;
-  color:var(--login-button)
+  color:var(--primary-color)
 
 }

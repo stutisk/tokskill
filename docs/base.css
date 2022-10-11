@@ -1,10 +1,17 @@
-:root{
-    --login-button:#00308f;
-    --nav-text-color:#05215b;
-    /* font-size */
-    --font-size1:0.900rem;
-    --font-weight600: 600;
-    --font-weight500: 500 ;
-    --border-radius: 8px;
-    --border-radius500:500px;
+:root {
+  --primary-color: #00308f;
+  --nav-text-color: #05215b;
+  --white-color:rgb(255, 255, 255);
+  --grey-color:#eeeff0;
+  --border-color:#e5e5e5;
+  
+  /* font-size */
+  --font-size1: 0.9rem;
+  --font-size2:21px;
+  --font-weight600: 600;
+  --font-weight500: 500;
+  --font-weight200:200;
+  --border-radius: 8px;
+  --border-radius500: 500px;
+
 }
