@@ -1,8 +1,14 @@
 .flex {
   display: flex;
 }
+.flex-column{
+  flex-direction: column;
+}
 .flex-space-between {
   justify-content: space-between;
+}
+.flex-center{
+  justify-content: center;
 }
 .grid {
   display: grid;
@@ -12,8 +18,16 @@
   grid-template-rows: 1fr;
   
 }
+.grid-template-columns3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  
+}
+.grid-center{
+  place-self: center;
+}
 .grid-gap{
-    grid-column-gap:1px;
+    grid-column-gap:3rem;
 }
 .grid-area1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -24,6 +38,9 @@
 .gap {
   gap: 3rem;
 }
+.gap1 {
+  gap: 1rem;
+}
 .m-l {
   margin-left: 7rem;
 }
@@ -32,6 +49,9 @@
 }
 .m-t {
   margin-top: 20px;
+}
+.m-t30 {
+  margin-top: 30px;
 }
 .m-t60{
     margin-top: 60px;
@@ -47,6 +67,9 @@
 }
 .padding2{
     padding: 5px 9rem;
+}
+.padding3{
+  padding: 2rem 3rem;
 }
 .cursor {
   cursor: pointer;

@@ -3,7 +3,9 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
+ul { padding:0 } 
 .navbar {
   border-bottom: 2px inset;
 }
@@ -22,8 +24,9 @@ body {
   color: white;
 }
 .container-Body {
-  height: 450px;
+    height: 450px;
 }
+
 .container-Body-img {
   border-radius: var(--border-radius500);
 }
@@ -33,19 +36,28 @@ body {
   font-size: 21px;
   font-family: Arimo, sans-serif;
 }
-.grid-area-text-about{
-    font-size: 14px;
-    line-height: 2;
-    width: 80%;
+.grid-area-text-about {
+  font-size: 14px;
+  line-height: 2;
+  width: 80%;
 }
 .grid-area-img {
   line-height: 600px;
 }
 .container-about {
-    height: 450px;
-    background-color: #eeeff0;
-    
+  height: 450px;
+  background-color: #eeeff0;
 }
-.center-text{
-    text-align: center;
+.center-text {
+  text-align: center;
+}
+.container-footer {
+  background-color: #00308f;
+  color: white;
+  font-weight: 200;
+ 
+}
+.footer-links{
+line-height: 2;
+justify-content: space-around;
 }
