@@ -61,3 +61,32 @@ ul { padding:0 }
 line-height: 2;
 justify-content: space-around;
 }
+
+.input-group{
+    width:40%;
+    text-align: center;
+}
+.input{
+    padding: 1rem;
+    width: 60%;
+    border: 1px solid #e5e5e5;
+    
+  
+}
+::placeholder {
+    font-size: 1rem;
+    opacity: 1;
+
+  }
+ .links{
+  color: white;;
+ }
+ i {
+  padding: 10px;
+}
+.icon {
+  position: relative;
+  right: 50px;
+  color:var(--login-button)
+
+}
